@@ -1,0 +1,76 @@
+{
+  "name": "slangin",
+  "version": "1.0.0",
+  "description": "To be continued...",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/webpack/bin/webpack.js -w",
+    "build": "webpack --env.dev --watch",
+    "express-server": "nodemon ./server/server.js",
+    "start": "npm run express-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPCMorris/slangin.git"
+  },
+  "keywords": [
+    "kids",
+    "education",
+    "animals"
+  ],
+  "author": "Ryan Morris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SPCMorris/slangin/issues"
+  },
+  "homepage": "https://github.com/SPCMorris/slangin#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-runtime": "^6.11.6",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.3.0",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.12.2",
+    "nodemon": "^1.11.0",
+    "react-hot-loader": "^1.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.0",
+    "classnames": "^2.2.5",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-content-length-validator": "^1.0.0",
+    "express-enforces-ssl": "^1.1.0",
+    "fbjs": "^0.8.5",
+    "helmet": "^3.4.0",
+    "knex": "^0.12.6",
+    "material-ui": "^0.16.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7",
+    "react": "^15.4.0",
+    "react-addons-create-fragment": "^15.3.2",
+    "react-addons-pure-render-mixin": "^15.3.2",
+    "react-addons-transition-group": "^15.3.2",
+    "react-addons-update": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^1.3.0",
+    "react-redux": "^4.4.5",
+    "react-tap-event-plugin": "^2.0.0",
+    "redux": "^3.6.0"
+  }
+}
